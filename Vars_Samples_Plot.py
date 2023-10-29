@@ -26,7 +26,7 @@ def vars_samples_plot(ProjectedData:pd.DataFrame,Loadings:pd.DataFrame,Explained
     Fig_size = kwargs.get('Fig_size', (16, 12))
     Fig_size_sub = kwargs.get('Fig_size', (20, 12))
     Overlaid = kwargs.get('Overlaid', True)
-    Plot_style = kwargs.get('Plot_style', 'seaborn-whitegrid')
+    Plot_style = kwargs.get('Plot_style', 'classic')
     Color_by_disc_var = kwargs.get('Color_by_disc_var', None)
     Sample_colors = kwargs.get('Sample_colors','blue')
     Sample_size = kwargs.get('Sample_size',15)
