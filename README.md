@@ -40,9 +40,7 @@ This Python script provides functionalities to generate PCA (Principal Component
 
 ## Libraries
 - `pandas`
-- `pandas.api.types`
 - `matplotlib`
-- `matplotlib.cm`
 
 ## Function
 
