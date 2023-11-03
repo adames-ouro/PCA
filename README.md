@@ -1,5 +1,7 @@
 # Principal Component Analysis 
 
+---
+
 ## Goal
 
 To reduce dimensionality, while retaining a large part of variation present in the data.
@@ -11,6 +13,8 @@ To reduce dimensionality, while retaining a large part of variation present in t
 - Does not involve Hyperparameters.
 - Highly affected by outliers.
 - Is a nonparametric method.
+
+---
 
 ## Steps for the Algorithm
 
@@ -29,10 +33,12 @@ To reduce dimensionality, while retaining a large part of variation present in t
 **Step 5: Recast along principal components axes**
 - Reorient or project the data from original axes along the principal components
 
+---
 ## PCA math:
 
 - Math explained in notebook named `Dimensionality Reduction - PCA.ipynb`
 
+---
 
 # Vars_Samples_Plot.py
 
@@ -46,15 +52,15 @@ This Python script provides functionalities to generate PCA (Principal Component
 
 Generates a PCA plot based on the given projected data, loadings, and explained variances.
 
-- `def vars_samples_plot(ProjectedData, Loadings, ExplainedVar, **kwargs):` 
-
-##  Parameters:
+```python
+vars_samples_plot(ProjectedData, Loadings, ExplainedVar, **kwargs)
+```
 
 - `ProjectedData:` (pd.DataFrame) - The projected data.
 - `Loadings:` (pd.DataFrame) - The loadings data.
 - `ExplainedVar:` (list) - Explained variance for the components.
 
-## Optional Parameters (kwargs):
+### Optional Parameters (kwargs):
 
 - `Fig_size:` Figure size (default is (16, 12))
 - `Fig_size_sub:` Figure size for subplots (default is (20, 12))
